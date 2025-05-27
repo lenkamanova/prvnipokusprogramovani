@@ -32,7 +32,7 @@ public class Main {
         Scanner mujScanner = new Scanner(System.in);
         System.out.println("Zadej sve jmeno:");
         String jmeno = mujScanner.nextLine();
-        System.out.println(pozdrav3 + jmeno);*/
+        System.out.println(pozdrav3 + jmeno);
 
         //kalkulacka
         int prvniCislo;
@@ -48,12 +48,30 @@ public class Main {
         System.out.println(prvniCislo + druheCislo);
         System.out.println(prvniCislo - druheCislo);
         System.out.println(prvniCislo * druheCislo);
-        System.out.println(prvniCislo / druheCislo);
+        System.out.println(prvniCislo / druheCislo);*/
 
+        //int NEJAKE_CISLO = 5;
 
+       //Uzivatel zada slovo, ve vypisu budou vsechna pismena velke
+        /*Scanner mujScanner = new Scanner(System.in);
+        System.out.println("Zadej sve slovo:");
+        String slovo = mujScanner.nextLine();
 
+        System.out.println(slovo);*/
 
+        //Prevod typu
+        //int prevedeneCislo = Integrer.parseInt("5");
 
+        int prvniCislo = 5;
+        int druheCislo = 2;
+        //prvniCislo = prvniCislo + druheCislo;
+        //prvniCislo += druheCislo;
+
+        System.out.println(prvniCislo + druheCislo);
+        System.out.println(prvniCislo - druheCislo);
+        System.out.println(prvniCislo % druheCislo);
+
+        System.out.println(prvniCislo != druheCislo);
 
     }
 }
