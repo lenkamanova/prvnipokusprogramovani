@@ -25,12 +25,19 @@ public class Main {
         String jmeno = "Honza";
 
         System.out.println(pozdrav2 + jmeno);
+
         //Uloha: Uzivatel napise sve jmeno a program ho pozdravi
-        String pozdrav3 = "Ahoj, ";
+        /*String pozdrav3 = "Ahoj, ";
         Scanner mujScanner = new Scanner(System.in);
-        System.out.println("Zadej sve jmeno");
+        System.out.println("Zadej sve jmeno:");
         String jmeno = mujScanner.nextLine();
-        System.out.println(pozdrav3 + jmeno);
+        System.out.println(pozdrav3 + jmeno);*/
+
+        //kalkulacka
+        int prvniCislo;
+        int druheCislo;
+        Scanner mujScanner = new Scanner(System.in);
+
 
 
 
