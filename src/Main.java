@@ -11,6 +11,7 @@ public class Main {
         System.out.println("Ahoj svete!");
         System.out.println("Ahoj svete!");*/
 
+
         int prvniCislo = 10;
         int druheCislo = 5;
 
@@ -37,6 +38,19 @@ public class Main {
         int prvniCislo;
         int druheCislo;
         Scanner mujScanner = new Scanner(System.in);
+
+        System.out.println("Zadej prvni cislo:");
+        prvniCislo = mujScanner.nextInt();
+
+        System.out.println("Zadej druhe cislo:");
+        druheCislo = mujScanner.nextInt();
+
+        System.out.println(prvniCislo + druheCislo);
+        System.out.println(prvniCislo - druheCislo);
+        System.out.println(prvniCislo * druheCislo);
+        System.out.println(prvniCislo / druheCislo);
+
+
 
 
 
