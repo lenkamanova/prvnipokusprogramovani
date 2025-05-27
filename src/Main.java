@@ -9,7 +9,7 @@ public class Main {
 
         System.out.println("Ahoj svete!");
         System.out.println("Ahoj svete!");
-        System.out.println("Ahoj svete!");*/
+        System.out.println("Ahoj svete!");
 
 
         int prvniCislo = 10;
@@ -20,7 +20,7 @@ public class Main {
         System.out.println(prvniCislo + druheCislo);
         System.out.println(prvniCislo - druheCislo);
         System.out.println(prvniCislo * druheCislo);
-        System.out.println(prvniCislo / druheCislo);
+        System.out.println(prvniCislo / druheCislo);*/
 
         String pozdrav2 = "Ahoj";
         String jmeno = "Honza";
