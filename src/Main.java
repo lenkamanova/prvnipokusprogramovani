@@ -22,10 +22,10 @@ public class Main {
         System.out.println(prvniCislo * druheCislo);
         System.out.println(prvniCislo / druheCislo);*/
 
-        String pozdrav2 = "Ahoj";
+        /*String pozdrav2 = "Ahoj";
         String jmeno = "Honza";
 
-        System.out.println(pozdrav2 + jmeno);
+        System.out.println(pozdrav2 + jmeno);*/
 
         //Uloha: Uzivatel napise sve jmeno a program ho pozdravi
         /*String pozdrav3 = "Ahoj, ";
@@ -100,7 +100,11 @@ public class Main {
             System.out.println("Nelze zadat zaporny vek");
         }*/
 
-        //Vypocet BMI hmotnost (kg)
+        //Vypocet BMI hmotnost (kg)/vyska(m) na druhou,
+        float vyska;
+        float hmotnost;
+        float bmi;
+
 
 
     }
