@@ -62,16 +62,33 @@ public class Main {
         //Prevod typu
         //int prevedeneCislo = Integrer.parseInt("5");
 
-        int prvniCislo = 5;
-        int druheCislo = 2;
+        int prvniCislo = 8;
+        int druheCislo = 3;
+
+
         //prvniCislo = prvniCislo + druheCislo;
         //prvniCislo += druheCislo;
 
-        System.out.println(prvniCislo + druheCislo);
+        /*System.out.println(prvniCislo + druheCislo);
         System.out.println(prvniCislo - druheCislo);
         System.out.println(prvniCislo % druheCislo);
 
-        System.out.println(prvniCislo != druheCislo);
+        System.out.println(prvniCislo <= druheCislo);*/
+
+        /*int cisloKPorovnani = 5;
+
+        System.out.println(cisloKPorovnani > 0 && cisloKPorovnani <= 8);
+        System.out.println(cisloKPorovnani > 8 || cisloKPorovnani< 0);
+        System.out.println(!(cisloKPorovnani > 8 || cisloKPorovnani< 0));*/
+        //Feature pro kontrolu veku, bude-li mit uzivatel 18 a vice vypis do konzole vitej v aplikaci
+        int vek;
+        Scanner mujScanner = new Scanner(System.in);
+
+        System.out.println("Zadej svuj vek:");
+        vek = mujScanner.nextInt();
+        if (vek >= 18) {
+            System.out.println("Uzivatel je dospely");
+        }
 
 
     }
