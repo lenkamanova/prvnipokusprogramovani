@@ -112,15 +112,17 @@ public class Main {
         hmotnost = mujScanner.nextFloat();
         bmi = hmotnost / (vyska * vyska);
 
-        if (bmi < 18.5f && bmi<25) {
+        if(bmi < 18.5f) {
             System.out.println("Uzivatel ma podvahu");
         }
-        else if (bmi>=18.5 && bmi<25){
-            System.out.println("Uzivatl ma optimalni vahu");
+        else if(bmi>=18.5f && bmi<25){
+            System.out.println("Uzivatel ma optimalni vahu");
         }
-        else if (bmi>=25) {
+        else if(bmi>=25) {
             System.out.println("Uzivatel ma nadvahu");
         }
+        System.out.println(bmi);
+
 
 
 
