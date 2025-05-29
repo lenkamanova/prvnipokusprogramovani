@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -101,7 +102,7 @@ public class Main {
         }*/
 
         //Vypocet BMI hmotnost (kg)/vyska(m) na druhou,
-        float vyska;
+        /*float vyska;
         float hmotnost;
         float bmi;
         Scanner mujScanner = new Scanner(System.in);
@@ -121,7 +122,27 @@ public class Main {
         else if(bmi>=25) {
             System.out.println("Uzivatel ma nadvahu");
         }
-        System.out.println(bmi);
+        System.out.println(bmi);*/
+
+        //Liche cislo = vyhrava, Sude cislo = prohrava
+        /*int hozeneCislo;
+        Random nahodnyGenerator = new Random();
+
+        System.out.println("Pro hozeni kostkou stiskni Enter");
+        Scanner mujScanner = new Scanner(System.in);
+        mujScanner.nextLine();
+
+        hozeneCislo = nahodnyGenerator.nextInt(1,7);
+        System.out.println("Hozene cislo je: " + hozeneCislo);
+
+        if (hozeneCislo % 2 == 1) {
+            System.out.println("Licha - Vyhravas!");
+        }
+        else {
+            System.out.println("Suda - Prohravas!");
+        }*/
+
+        //
 
 
 
