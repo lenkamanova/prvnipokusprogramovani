@@ -204,10 +204,15 @@ public class Main {
         jmena[0] = "Linda";
         System.out.println(jmena[0]);*/
 
+        /*int[][] pole20 = new int[3][3];
+        pole20[0][0] = 464;
+        pole20[0][1] = 92;*/
 
+        //Smycky
+        for (int i = 0; i < 10; i++){
+            System.out.println(i * 10);
 
-
-
+        }
 
 
 
