@@ -247,7 +247,7 @@ public class Main {
         System.out.println("Tady pokracuju");*/
 
         //Vylepseni ulohy hodu kostkami
-        int hozeneCislo;
+      /*  int hozeneCislo;
         Random nahodnyGenerator = new Random();
         Scanner mujScanner = new Scanner(System.in);
         boolean ridiciPromenna = true;
@@ -271,8 +271,9 @@ public class Main {
                 ridiciPromenna = false;
             }
 
-        } while (ridiciPromenna);
+        } while (ridiciPromenna);*/
 
+        //21 (BlackJack)
 
 
 
