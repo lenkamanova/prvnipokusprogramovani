@@ -210,7 +210,10 @@ public class Main {
 
         //Smycky
         for (int i = 0; i < 10; i++){
-            System.out.println(i * 10);
+            System.out.println(i * 21);
+            if (i == 5){
+                break;
+            }
 
         }
 
