@@ -274,7 +274,53 @@ public class Main {
         } while (ridiciPromenna);*/
 
         //21 (BlackJack)
+    Scanner mujScanner = new Scanner(System.in);
+    Random nahGen = new Random();
+    int skoreHrace = 0;
+    int skoreKrupiera = 0;
+    int tazenaKarta;
+    String uzivatelskyVstup;
 
+    do {
+        tazenaKarta = nahGen.nextInt(1,14);
+        System.out.println("Tazena karta je:" + tazenaKarta);
+        skoreHrace = skoreHrace + tazenaKarta;
+        System.out.println("Skore hrace je:"+skoreHrace);
+
+        if (skoreHrace >21){
+            System.out.println("Prohral jsi!");
+            break;
+        }
+
+        System.out.println("Chces dalsi kartu stiskni - d");
+        System.out.println("Uz nechces kartu stiskni - q");
+        uzivatelskyVstup = mujScanner.nextLine();
+
+        if (uzivatelskyVstup.equals("d")){
+            continue;
+        }
+        else if (uzivatelskyVstup.equals("q")){
+            skoreKrupiera = nahGen.nextInt(1,14);
+            if (skoreKrupiera < 10){
+                skoreKrupiera = nahGen.nextInt(1,14);
+            }
+            break;
+        }
+
+
+    }while (true);
+
+    System.out.println("Skore hrace:" + skoreHrace);
+    System.out.println("Skore krupiera:" + skoreKrupiera);
+
+    if (skoreHrace > skoreKrupiera && skoreHrace <= 21)
+    {
+        System.out.println("Vyhral jste");
+        } else {
+            System.out.println("Prohral jste");
+        }
+
+        System.out.println("Dekujeme za hru");
 
 
     }
