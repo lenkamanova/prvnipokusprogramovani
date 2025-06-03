@@ -209,12 +209,25 @@ public class Main {
         pole20[0][1] = 92;*/
 
         //Smycky
-        for (int i = 0; i < 10; i++){
-            System.out.println(i * 21);
+        /*for (int i = 0; i < 10; i++){
+            //System.out.println(i * 5);
             if (i == 5){
-                break;
+                //break;
+                continue;
             }
+            System.out.println(i);
 
+        }*/
+        String [] jmena = new String[] {"Petr", "Jan", "Katka", "Eva", "Jana"};
+
+        //for
+        for (int i = 0; i < jmena.length; i++){
+            System.out.println(jmena[i]);
+        }
+
+        //foreach
+        for (String jmeno: jmena){
+            System.out.println(jmeno);
         }
 
 
